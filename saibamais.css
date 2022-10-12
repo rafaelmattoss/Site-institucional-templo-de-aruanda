@@ -117,8 +117,10 @@ ul>li{
         text-align: center;
     }
 
-    nav{
+    nav>a{
         text-align: center;
+        margin: 05px;
+        padding: 05px;
     }
 
     #regras{
