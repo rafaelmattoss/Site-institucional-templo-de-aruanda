@@ -1,0 +1,525 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'antigo' ;
+    src: url("fontes/Pieces of Eight.ttf ") format("truetype") ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+
+}
+.principal{
+    font-family: "antigo", sans-serif;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+    
+}
+
+header{
+    max-width: 100%;
+}
+ 
+.principal{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    text-align: right;
+}
+
+nav>a{
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    font-family: 'Hind', sans-serif;
+    font-size: 22px;
+    padding: 10px;
+
+}
+
+.intro{
+background-image: url(imagem/fundoo.png);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center center;
+background-attachment: fixed;
+padding: 50px; 
+margin-bottom: 80px;
+max-width: 100%;
+padding-bottom: 200px;
+
+}
+
+.templo{
+    height: 200px;
+    width: 600px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.493);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.templo>p,h1{
+   color: white;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.praticass{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.imgs>img{
+
+    height: 200px;
+    width: 300px;
+
+}
+
+.imgs>p{
+margin-top: 10px;
+font-family: 'Hind', sans-serif;
+font-size: 16px;
+
+    
+}
+
+.aya{
+    margin-left: 60px;
+}
+
+
+.poder{
+    margin-left: 100px;
+}
+
+.cachimbo{
+
+    margin-left: 40px;
+
+}
+
+.aya,.cachimbo, .poder{
+    background-color: #979191a1;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+#xamanismol{
+    color: rgb(63, 62, 62);
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.instituto{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.nos>p{
+    width: 600px;
+    height: 100px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sobrei{
+    color: rgb(63, 62, 62);
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+
+.normas{
+background-image: url(imagem/por.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center center;
+background-attachment: fixed;
+padding: 50px; 
+margin-bottom: 80px;
+max-width: 100%;
+padding-bottom: 300px;
+height: 100px;
+background-color: rgb(0, 0, 0);
+}
+
+.condutas{
+    margin: auto;
+    width: 600px;
+    font-family: 'hind' sans-serif;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.condutas>p,h1{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    
+ }
+
+ .condutas>a{
+   display: block;
+   margin: auto;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   padding: 15px;
+   background-color: #af4000;
+   width: 120px;
+   border-radius: 30px;
+   font-size: 22px;
+
+ }
+
+
+
+
+
+
+.eventos{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+
+.calendario{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+background-image: linear-gradient(to right,#00a308, #00bd00, #5eff00);
+color: white;
+padding: 10px;
+padding-left: 40px;
+
+}
+
+nav>a:hover{
+    background-color: #d4d4d471;
+    transition-duration: 1s;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+   }
+
+.fim{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.rituala{
+    display: flex;
+}
+
+
+.imgcontdois > a{
+   color: white;
+}
+
+
+
+
+.nossas{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: rgb(97, 96, 96);
+    padding: 10px;
+    margin-left: 20px;
+    font-size:20px ;
+}
+
+.eventoss{
+    padding: 30px;
+    background-image: linear-gradient(to right,#9E7302, #78AB41, #266401);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+   }
+
+
+   footer{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    align-items: center;
+    padding-top: 80px;
+    justify-content: center;
+   
+   }
+
+   .mapa{
+    height: 200px;
+    width: 300px;
+    
+   }
+
+   footer>div{
+    height: 300px;
+    width: 300px;
+    color: white;
+   }
+
+   footer>a{
+    color:white
+   }
+
+   .midias>h1{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   .contatoo>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -150px;
+   }
+
+   .contatoo>a{
+
+    background-color: #883924;
+    color:white ;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    padding: 15px;
+    border-radius: 50px;
+
+   }
+
+   .contatoo>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+   }
+
+
+   .midias>img{
+    width: 300px;
+    height: 200px;
+   }
+
+   .loc>h1{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   .midias>h1{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+
+   .templo{
+
+    color: rgb(0, 0, 0);
+   }
+
+   /* copiar a apartir daqui*/
+
+   .fotos> img{
+    height: 200px;
+    width: 300px;
+   }
+
+   .adc>img{
+    height: 200px;
+    width: 300px;
+   }
+
+   .info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 50px;
+   }
+
+   .fotom{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+   }
+
+   .agenda>h1,ul{
+    color: black;
+   }
+
+   ul>li{
+    border-top: black solid;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+   }
+
+   ul{
+    height: 100px;
+    width: 300px;
+   }
+
+   .agenda{
+    padding-bottom: 100px;
+    margin-right: 5px;
+   }
+
+   li>a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+   }
+
+   li>a{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+   }
+
+   
+   
+
+   
+
+  
+
+
+   @media (max-width: 600px){
+    *{
+        margin-right: 0%;
+    }
+
+    .templo{
+        margin: auto;
+        max-width:100%;
+        margin-left: -25px;
+        height: 0%;
+        height: 270px;
+        background-color: rgba(0, 0, 0, 0.507);
+    }
+
+   .instituto{
+    display: block;
+   }
+
+
+   .nos>p{
+    text-align:center;
+    max-width: 100%;
+    margin:10px;
+    
+   }
+
+   .nos{
+    margin: 20px;
+   }
+
+   .condutas{
+    margin: auto;
+    max-width:100%;
+    margin-left: -25px;
+    height: 0%;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 0.507);
+    
+}
+
+    header>h1{
+        display: block;
+        text-align: center;
+    }
+
+    .normas{
+    background-image: url(imagem/porsol.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 50px; 
+    margin-bottom: 80px;
+    max-width: 100%;
+    padding-bottom: 300px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    }
+
+    .principal{
+        text-align: center;
+    }
+
+    .aya,.cachimbo, .poder{
+        background-color: #979191a1;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+        margin: auto;
+        font-weight: bold;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+    nav>a{
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .video{
+        margin-left: 50px;
+    }
+
+    .intro{
+        background-image: url(imagem/fundo.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+        background-attachment: fixed;
+        padding: 50px; 
+        margin-bottom: 80px;
+        max-width: 100%;
+        padding-bottom: 300px;
+        height: 100px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    li>a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+       }
+
+
+   
+
+
+   }
