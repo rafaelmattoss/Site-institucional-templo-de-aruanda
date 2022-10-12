@@ -117,11 +117,14 @@ ul>li{
         text-align: center;
     }
 
-    nav>a{
+    nav{
         text-align: center;
+    }
+
+    nav>a{
         margin: 05px;
         padding: 05px;
-        margin: auto;
+       
     }
     
 
