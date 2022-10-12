@@ -121,7 +121,9 @@ ul>li{
         text-align: center;
         margin: 05px;
         padding: 05px;
+        margin: auto;
     }
+    
 
     #regras{
         text-align: center;
